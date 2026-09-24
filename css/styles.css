@@ -1,6 +1,6 @@
 body{
-    background-color: #000000;
-    color:      #ffffff;
+    background-color: #aa9a9a;
+    color:      #131212;
     font-family: Arial sans-serif;
 }
 /* ============================
@@ -9,19 +9,34 @@ body{
  */
 
 h2{
-  color: #0a0707;
-  font-size: 40px;
+  color: #2563eb;
+  font-size: 28px;
 }
-
-.seccion{
-    background-color:rgb(14, 13, 13) ;
+h3{
+  color: aqua;
+  font-size: 20px;
 }
-
-#perfil{
-    background-color: rgb(10, 7, 7);
-}
-
 p{
-    color: #070505;
-    font-size: 20px;
+    line-height: 1.6;
+}
+.seccion{/*clase*/
+    background-color:rgb(231, 226, 226) ;
+}
+
+#perfil{/*id*/
+    background-color: rgb(240, 15, 15);
+}
+
+
+/*encabezado*/
+header{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+header h2{
+    color:#d1d5db
 }
